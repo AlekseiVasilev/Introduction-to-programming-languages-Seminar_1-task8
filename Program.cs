@@ -5,7 +5,7 @@
 //8 -> 2, 4, 6, 8
 
 Console.Write("Введите число N: ");
-int number1 = int.Parse(Console.ReadLine());
+int number1 = Math.Abs(int.Parse(Console.ReadLine() ?? string.Empty));
 int number2 = 0;
 
 while (number1 > number2)
